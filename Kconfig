@@ -1,0 +1,5 @@
+menu "my driver for Beaglebone Black"
+	config BBB_MY_DRV
+		tristate "My driver for beaglebone black"
+		default n
+endmenu
